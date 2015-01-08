@@ -152,8 +152,7 @@ lib:__RegisterSpells("SHAMAN", "60000", 4, {
 	[118472] =  73680, -- Unleashed Fury (Talent)
 	[118522] = 117014, -- Elemental Blast: Critical (Talent)
 	[118905] = 108269, -- Capacitor Totem
-}, {
-	-- Map aura to modified spell(s)
+
 	[ 53390] = { -- Tidal Wave
 		 8004, -- Healing Surge (Restoration)
 		77472, -- Healing Wave
@@ -179,4 +178,6 @@ lib:__RegisterSpells("SHAMAN", "60000", 4, {
 		73685, -- Unleash Life
 		51886, -- Purify Spirit (Talent, Restoration)
 	},
+}, {
+	-- Map aura to modified spell(s)
 })
